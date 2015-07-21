@@ -9,14 +9,6 @@
 import Foundation
 import Darwin // M_PI
 
-println("randomNum-->[\(randomNum(1...1000))]")
-
-var s = input("Name")
-println("input-->[\(s)]")
-
-var t = inputNum("Age")
-println("inputNum-->[\(t)]")
-
 // Interpolación de Texto
 var radio = Double(inputNum("Radio"))
 let π = M_PI
