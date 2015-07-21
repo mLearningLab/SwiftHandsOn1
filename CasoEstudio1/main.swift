@@ -11,10 +11,10 @@ import Foundation
 let oculto = randomNum(1...1000)
 
 while true {
-    if let num = inputNum(”Anota número") {
+    if let num = inputNum("Anota número") {
         if num == oculto {
             println("GANASTE!")
-            exit(0)
+            break
         } else if num < oculto {
             println("Anota un número MAYOR")
         } else {
@@ -24,6 +24,4 @@ while true {
         break
     }
 }
-
-
-println("\nBye!")
+println("Bye!")
