@@ -1,6 +1,8 @@
 # SwiftHandsOn1
 Swift Hands On Nearsoft Workshop
 
+Demo: Show input(), inputNum() and randomNum() usage examples.
+
 Code Examples for Workshop Participants
 Each fork is a different example
 The library is required for Swift versions previous to Swift version 2.0
